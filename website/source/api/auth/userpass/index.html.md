@@ -22,6 +22,8 @@ please update your API calls accordingly.
 
 Create a new user or update an existing user. This path honors the distinction between the `create` and `update` capabilities inside ACL policies.
 
+In case you would like to create an user associated to an entity, you should use the [Entity Alias Vault API documentation](/api/secret/identity/entity-alias.html) with the same path.
+
 | Method   | Path                         | Produces               |
 | :------- | :--------------------------- | :--------------------- |
 | `POST`    | `/auth/userpass/users/:username`   | `204 (empty body)`     |
